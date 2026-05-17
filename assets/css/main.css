@@ -5,37 +5,57 @@
   --nav-font: "Raleway",  sans-serif;
 }
 
-:root {
-  --background-color: #ffffff;
-  --default-color: #3d3d3d;
-  --heading-color: #3d3d3d;
-  --accent-color: #be8d53;
-  --surface-color: #f8f9fa;
+:root { 
+  /* ══ LIGHT MODE: White + Gold ══ */
+  --background-color: #ffffff; 
+  --default-color: #111111; 
+  --heading-color: #0b0b0b; 
+  --accent-color: #c6965a;
+  --surface-color: #f9f5ef; 
   --contrast-color: #ffffff;
 
-  --nav-color: #3d3d3d;
-  --nav-hover-color: #8a6334;
-  --nav-mobile-background-color: #ffffff;
-  --nav-dropdown-background-color: #f8f9fa;
-  --nav-dropdown-color: #3d3d3d;
-  --nav-dropdown-hover-color: #8a6334;
+  --nav-color: #111111;  
+  --nav-hover-color: #c6965a; 
+
+  --nav-mobile-background-color: #ffffff; 
+  --nav-dropdown-background-color: #fffdfb; 
+  --nav-dropdown-color: #111111; 
+  --nav-dropdown-hover-color: #c6965a;
 }
 
+/* Soft Gold Section */
 .light-background {
-  --background-color: #fcfcfc;
-  --surface-color: #f8f9fa;
+  --background-color: #c48930;
+  --surface-color: #ffffff;
 }
+
+/* ══ DARK MODE: Soft Charcoal + Gold ══ */
 .dark-background {
-  --background-color: #1a1a1a;
-  --default-color: #e8d9c0;
-  --heading-color: #f5ece0;
-  --surface-color: #3d3d3d;
-  --contrast-color: #1a1a1a;
-  --nav-color: #e8d9c0;
-  --nav-mobile-background-color: #242424;
-  --nav-dropdown-background-color: #242424;
-  --nav-dropdown-color: #e8d9c0;
-  --accent-color: #cca77a;
+
+  /* Main backgrounds */
+  --background-color: #161616;      /* بدل الأسود الحاد */
+  --surface-color: #222222;          /* الكروت والعناصر */
+
+  /* Text colors */
+  --default-color: #ddd3c3;         
+  --heading-color: #f3e6d2;
+
+  /* Accent */
+  --accent-color: #c6965a;
+
+  /* Contrast */
+  --contrast-color: #ffffff;
+
+  /* Navigation */
+  --nav-color: #ddd3c3;
+  --nav-hover-color: #c6965a;
+
+  /* Mobile & dropdown */
+  --nav-mobile-background-color: #1b1b1b;
+  --nav-dropdown-background-color: #252525;
+
+  --nav-dropdown-color: #ddd3c3;
+  --nav-dropdown-hover-color: #c6965a;
 }
 /* Smooth scroll */
 :root {
