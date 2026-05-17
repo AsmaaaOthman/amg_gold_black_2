@@ -3,39 +3,83 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 :root {
   --sb-width: 300px;
+
+  /* Light Mode */
   --sb-bg: #ffffff;
-  --sb-border: rgba(0, 0, 0, 0.07);
-  --sb-shadow: -12px 0 60px rgba(0, 0, 0, 0.10), -2px 0 8px rgba(0, 0, 0, 0.05);
+  --sb-border: rgba(0, 0, 0, 0.06);
+
+  --sb-shadow:
+    -12px 0 60px rgba(0, 0, 0, 0.08),
+    -2px 0 8px rgba(0, 0, 0, 0.04);
+
   --sb-header-bg: #fafafa;
-  --sb-header-border: rgba(0, 0, 0, 0.06);
+  --sb-header-border: rgba(0, 0, 0, 0.05);
+
   --sb-label-color: #9a9a9a;
+
   --sb-close-bg: #f2f2f2;
   --sb-close-color: #555555;
+
   --sb-link-color: #3d3d3d;
-  --sb-link-hover-bg: color-mix(in srgb, var(--accent-color), transparent 90%);
-  --sb-link-active-bg: color-mix(in srgb, var(--accent-color), transparent 84%);
+
+  --sb-link-hover-bg:
+    color-mix(in srgb, var(--accent-color), transparent 90%);
+
+  --sb-link-active-bg:
+    color-mix(in srgb, var(--accent-color), transparent 84%);
+
   --sb-link-icon-color: #999999;
-  --sb-divider: rgba(0, 0, 0, 0.06);
+
+  --sb-divider: rgba(0, 0, 0, 0.05);
+
   --sb-footer-bg: #fafafa;
+
   --sb-overlay-bg: rgba(0, 0, 0, 0.40);
 }
 
+/* ══ DARK MODE: Soft Charcoal ══ */
 .dark-background {
-  --sb-bg: #1a1a1a;
-  --sb-border: rgba(255, 255, 255, 0.07);
-  --sb-shadow: -12px 0 60px rgba(0, 0, 0, 0.55), -2px 0 8px rgba(0, 0, 0, 0.30);
-  --sb-header-bg: #242424;
-  --sb-header-border: rgba(255, 255, 255, 0.06);
-  --sb-label-color: #4d4d4d;
-  --sb-close-bg: rgba(255, 255, 255, 0.08);
-  --sb-close-color: #cccccc;
-  --sb-link-color: #d6b895;
-  --sb-link-hover-bg: color-mix(in srgb, var(--accent-color), transparent 85%);
-  --sb-link-active-bg: color-mix(in srgb, var(--accent-color), transparent 78%);
-  --sb-link-icon-color: #5d5d5d;
-  --sb-divider: rgba(255, 255, 255, 0.06);
-  --sb-footer-bg: #242424;
-  --sb-overlay-bg: rgba(0, 0, 0, 0.65);
+
+  /* Sidebar background */
+  --sb-bg: #202020;
+
+  /* Borders */
+  --sb-border: rgba(255, 255, 255, 0.05);
+
+  /* Softer shadow */
+  --sb-shadow:
+    -12px 0 50px rgba(0, 0, 0, 0.35),
+    -2px 0 8px rgba(0, 0, 0, 0.18);
+
+  /* Header & footer */
+  --sb-header-bg: #292929;
+  --sb-header-border: rgba(255, 255, 255, 0.04);
+
+  --sb-footer-bg: #292929;
+
+  /* Labels */
+  --sb-label-color: #8d857b;
+
+  /* Close button */
+  --sb-close-bg: rgba(255, 255, 255, 0.06);
+  --sb-close-color: #d8d0c5;
+
+  /* Links */
+  --sb-link-color: #e3d5c2;
+
+  --sb-link-hover-bg:
+    color-mix(in srgb, var(--accent-color), transparent 88%);
+
+  --sb-link-active-bg:
+    color-mix(in srgb, var(--accent-color), transparent 80%);
+
+  --sb-link-icon-color: #8b8378;
+
+  /* Divider */
+  --sb-divider: rgba(255, 255, 255, 0.05);
+
+  /* Overlay */
+  --sb-overlay-bg: rgba(0, 0, 0, 0.55);
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
