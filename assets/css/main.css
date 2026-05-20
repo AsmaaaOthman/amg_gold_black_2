@@ -33,8 +33,8 @@
 .dark-background {
 
   /* Main backgrounds */
-  --background-color: #161616;      /* بدل الأسود الحاد */
-  --surface-color: #222222;          /* الكروت والعناصر */
+  --background-color: #161616;      
+  --surface-color: #222222;          
 
   /* Text colors */
   --default-color: #ddd3c3;         
@@ -4325,7 +4325,7 @@ section,
 
 .error .error-content .search-box {
   display: flex;
-  max-width: 400px;
+  /* max-width: 400px; */
   margin-bottom: 32px;
   border-radius: 50px;
   overflow: hidden;
