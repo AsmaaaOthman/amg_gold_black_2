@@ -2096,7 +2096,7 @@ section,
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
+  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
 .features-tabs .visual-content .main-image img {
@@ -2119,7 +2119,7 @@ section,
   display: flex;
   align-items: center;
   gap: 15px;
-  box-shadow: 0 15px 40px color-mix(in srgb, var(--default-color), transparent 80%);
+  box-shadow: 0 15px 40px color-mix(in srgb, var(--default-color), transparent 95%);
   transform: translateY(20px);
   opacity: 0;
   animation: fadeInUp 0.8s ease 0.6s forwards;
@@ -2240,12 +2240,14 @@ section,
 }
 
 .services .hero-visual {
+  background-color: var(--surface-color);
+  border-radius: 20px;
   position: relative;
 }
 
 .services .hero-visual img {
   border-radius: 20px;
-  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
+  /* box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%); */
 }
 
 @media (max-width: 991px) {
@@ -2280,7 +2282,7 @@ section,
 
 .services .services-grid .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 25px 50px color-mix(in srgb, var(--default-color), transparent 80%);
+  /* box-shadow: 0 25px 50px color-mix(in srgb, var(--default-color), transparent 80%); */
 }
 
 .services .services-grid .service-card:hover::before {
@@ -3452,6 +3454,7 @@ section,
   position: relative;
   margin-bottom: 40px;
   border-radius: 12px;
+  background-color: var(--surface-color);
   overflow: hidden;
 }
 
