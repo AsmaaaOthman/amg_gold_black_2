@@ -70,6 +70,10 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+::selection {
+    background:var(--accent-color) !important;
+    color:var(--surface-color)
+}
 
 a {
   color: var(--accent-color);
